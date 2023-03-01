@@ -1,0 +1,25 @@
+# Bill of Materials
+- x1 - Chassis (If it breaks, we can always use popsicle sticks!)
+  - What if we just bought an [RC car](https://a.co/d/haKVwfe) for the drag race?
+    - _We'd totally win the Drag race!_
+- x4 - Motors (in case we burn them up)
+- x5 - Motor Drivers (in case we burn them up)
+- x5 - temperature sensor (in case we burn our board)
+- x4 - Wheels (Seems like spares may be nice)
+- x1 - Ball Bearing (seems like spares would be less important)
+  - [Marbles](https://a.co/d/cl1yvs8), anyone?
+- x2 - Ultrasonic Sensors
+  - Brock, get the link\*!\*
+- x2 - IR Sensors
+  - Jack, get the info
+- x32 - LEDs
+  - I mean, we can never have too many, right?
+- x2 - Battery
+  - Jack, you've got this one
+  - *What if we used a higher-amped power source?*
+- x1 - Battery Holder
+  - [zip ties](https://a.co/d/apTf1r2), anyone?
+  - [adafruit](https://www.adafruit.com/product/3905) has one.
+- x128 - Whiskers
+  - All the cats!
+- ADCs?
