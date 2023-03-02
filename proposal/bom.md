@@ -3,17 +3,24 @@
   - What if we just bought an [RC car](https://a.co/d/haKVwfe) for the drag race?
     - _We'd totally win the Drag race!_
 - x4 - Motors (in case we burn them up)
+  - Stock Room?
+  - [Adafruit Zippier Ones](https://www.adafruit.com/product/3777)
+  - [Motor/Encoder Combo](https://a.co/d/baZXsuo)
 - x5 - Motor Drivers (in case we burn them up)
+- x5 - Rotary Encoders
+  - [adafruit](https://www.adafruit.com/product/4991)
+  - [Brock has these](https://a.co/d/gRUY2s8)
+  - [Motor/Encoder Combo](https://a.co/d/baZXsuo)
 - x5 - temperature sensor (in case we burn our board)
 - x4 - Wheels (Seems like spares may be nice)
 - x1 - Ball Bearing (seems like spares would be less important)
   - [Marbles](https://a.co/d/cl1yvs8), anyone?
 - x2 - Ultrasonic Sensors
-  - Brock, get the link\*!\*
+  - [Brock Owns some](https://www.electroschematics.com/hc-sr04-datasheet/)
 - x2 - IR Sensors
   - Jack, get the info
 - x32 - LEDs
-  - I mean, we can never have too many, right?
+  - I mean, we can [*never have too many*](https://a.co/d/3lupUKW), right?
 - x2 - Battery
   - Jack, you've got this one
   - *What if we used a higher-amped power source?*
@@ -21,5 +28,5 @@
   - [zip ties](https://a.co/d/apTf1r2), anyone?
   - [adafruit](https://www.adafruit.com/product/3905) has one.
 - x128 - Whiskers
-  - All the cats!
+  - Homemade (All the cats!)
 - ADCs?
