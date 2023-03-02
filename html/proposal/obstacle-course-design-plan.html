@@ -2,7 +2,7 @@
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>Bill of Materials</title>
+        <title>Obstacle Course Design Plan</title>
         <style>
 /* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
@@ -1292,7 +1292,8 @@ body,
 }
 
 </style>
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
@@ -1317,75 +1318,23 @@ body,
     </head>
     <body class="vscode-body vscode-dark" style="background-color: #0d1117">
         <div class="github-markdown-body github-markdown-auto">
-            <div class="github-markdown-content"><h1 id="bill-of-materials">Bill of Materials</h1>
+            <div class="github-markdown-content"><h1 id="obstacle-course-design-plan">Obstacle Course Design Plan</h1>
+<h2 id="process-design---left-hand-rule">Process Design - Left-Hand Rule</h2>
+<p>Rover first turns <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>9</mn><msup><mn>0</mn><mi>o</mi></msup></mrow><annotation encoding="application/x-tex">90^o</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6644em;"></span><span class="mord">9</span><span class="mord"><span class="mord">0</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.6644em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">o</span></span></span></span></span></span></span></span></span></span></span> left, then follows start line until colliding with the wall, at which point the rover maintains contact on its left side with the wall until detection of end line.</p>
+<h3 id="complications">Complications:</h3>
 <ul>
-<li>x1 - Chassis (If it breaks, we can always use popsicle sticks!)
-<ul>
-<li>Obstacle Course: <a href="https://www.adafruit.com/product/4466">Octagon Chassis</a></li>
-<li>Drag Race: <a href="https://a.co/d/haKVwfe">RC car</a></li>
+<li>Rover will need <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mn>2</mn><mo>+</mo></mrow><annotation encoding="application/x-tex">2+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7278em;vertical-align:-0.0833em;"></span><span class="mord">2</span><span class="mord">+</span></span></span></span> whiskers on its left side of differing lengths. one contact will indicate adequate proximity, two contacts will indicate excessive proximity to the wall. No contact will indicate inadequate proximity and the rover will turn left until contact is found.</li>
+<li>Rover will need to follow the start line, and be capable of distinguishing start &amp; end lines.</li>
+<li>Rover <em>may</em> depart from &amp; return to start line in order to avoid a box placed on the start line.</li>
+<li>Brute-force method maximizes minimum course traversal time.</li>
 </ul>
-</li>
-<li>x4 - Motors (in case we burn them up)
-<ul>
-<li>Stock Room?</li>
-<li><a href="https://www.adafruit.com/product/3777">Adafruit Zippier Ones</a></li>
-<li><a href="https://a.co/d/baZXsuo">Motor/Encoder Combo</a></li>
-</ul>
-</li>
-<li>x5 - Motor Drivers (in case we burn them up)</li>
-<li>x5 - Rotary Encoders
-<ul>
-<li><a href="https://www.adafruit.com/product/4991">adafruit</a></li>
-<li><a href="https://a.co/d/gRUY2s8">Brock has these</a></li>
-<li><a href="https://a.co/d/baZXsuo">Motor/Encoder Combo</a></li>
-</ul>
-</li>
-<li>x5 - temperature sensor (in case we burn our board)</li>
-<li>x4 - Wheels (Seems like spares may be nice)</li>
-<li>x1 - Ball Bearing (seems like spares would be less important)
-<ul>
-<li><a href="https://a.co/d/cl1yvs8">Marbles</a>, anyone?</li>
-</ul>
-</li>
-<li>x2 - Ultrasonic Sensors
-<ul>
-<li><a href="https://www.electroschematics.com/hc-sr04-datasheet/">Brock Owns some</a></li>
-</ul>
-</li>
-<li>x2 - IR Sensors
-<ul>
-<li>Jack, get the info</li>
-</ul>
-</li>
-<li>x32 - LEDs
-<ul>
-<li>I mean, we can <a href="https://a.co/d/3lupUKW"><em>never have too many</em></a>, right?</li>
-</ul>
-</li>
-<li>x2 - Battery
-<ul>
-<li>Jack, you've got this one</li>
-<li><em>What if we used a higher-amped power source?</em></li>
-</ul>
-</li>
-<li>x1 - Battery Holder
-<ul>
-<li><a href="https://a.co/d/apTf1r2">zip ties</a>, anyone?</li>
-<li><a href="https://www.adafruit.com/product/3905">adafruit</a> has one.</li>
-</ul>
-</li>
-<li>x128 - Whiskers
-<ul>
-<li>Homemade (All the cats!)</li>
-<li><a href="https://www.adafruit.com/product/1070">Adafruit Short Flex Sensor</a></li>
-<li><a href="https://www.adafruit.com/product/182">Adafruit long Flex Sensor</a></li>
-</ul>
-</li>
-<li>ADCs?</li>
-</ul>
+<h2 id="physical-design---the-rover">Physical Design - The Rover</h2>
+<p>The Rover will consist of the <a href="https://www.adafruit.com/product/4466">octagon chassis</a> with whiskers to detect the presence of an obstruction. It will use the data received from its whiskers to autonomously navigate the obstacle course until it crosses the finish line, which it will detect with photo-voltaic sensors attached to the bottom of the frame.</p>
+<h2 id="block-diagrams">Block Diagrams</h2>
+<h2 id="finite-state-machines">Finite State Machines</h2>
 </div>
         </div>
-        
+        <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
         
     </body>
     </html>

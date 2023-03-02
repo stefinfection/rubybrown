@@ -2,7 +2,7 @@
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>Bill of Materials</title>
+        <title>Drag Race Approach</title>
         <style>
 /* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
@@ -1292,7 +1292,8 @@ body,
 }
 
 </style>
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex/dist/katex.min.css">
+<link href="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
 <style>
@@ -1317,75 +1318,30 @@ body,
     </head>
     <body class="vscode-body vscode-dark" style="background-color: #0d1117">
         <div class="github-markdown-body github-markdown-auto">
-            <div class="github-markdown-content"><h1 id="bill-of-materials">Bill of Materials</h1>
+            <div class="github-markdown-content"><h1 id="drag-race-approach">Drag Race Approach</h1>
+<h2 id="process-design---the-lightning-mcqueen-i-am-speed">Process Design - The Lightning McQueen <em>(I am speed!)</em></h2>
+<p>The Rover will take an input of distance and wait for the &quot;Go&quot; button to be pressed. Upon detection of the stimuli, it will burn out straight forward until <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>x</mi><mo>&lt;</mo><mn>100</mn><mi mathvariant="normal">%</mi></mrow><annotation encoding="application/x-tex">x &lt; 100\%</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mord mathnormal">x</span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.8056em;vertical-align:-0.0556em;"></span><span class="mord">100%</span></span></span></span> of total distance is reached, at which point it will begin to slow down. The Rover will stop upon detection of the presence of the end line through its LED light detectors.</p>
+<h2 id="physical-design---frankensteined-rc-car">Physical Design - Frankensteined <a href="https://a.co/d/haKVwfe">RC car</a></h2>
+<p>The RC car will have the RF module removed, and the STM32 will replace the PWM signal for both steering <em>and</em> power. The PWM signal will likely have distinct periods, as one will tie directly as input to the servo motor, and the other will serve as input to the ESC (Electronic Speed Controller). The RC car turned dragster will also have photo-voltaic sensors attached to its undercarriage, which will provide the <code>STOP</code> signal to the STM32, which will then stop Frankensteined RC car.</p>
+<p>We <em>could</em> complete the Drag Race with obstacle course chassis &amp; its associated physical design, but we wanted to <em>Drag our Race</em>, so we thought of the specialization solution. In doing this, we will encounter the following <em>additional</em> challenges:</p>
 <ul>
-<li>x1 - Chassis (If it breaks, we can always use popsicle sticks!)
+<li>2 new PWMs to which our STM32 will need to be reprogrammed
 <ul>
-<li>Obstacle Course: <a href="https://www.adafruit.com/product/4466">Octagon Chassis</a></li>
-<li>Drag Race: <a href="https://a.co/d/haKVwfe">RC car</a></li>
+<li>measurement of the PWMs</li>
 </ul>
 </li>
-<li>x4 - Motors (in case we burn them up)
+<li>Faster response to the analog photovoltaic sensor (due to increased speed).</li>
+<li>Greater sensitivity to PWM error
 <ul>
-<li>Stock Room?</li>
-<li><a href="https://www.adafruit.com/product/3777">Adafruit Zippier Ones</a></li>
-<li><a href="https://a.co/d/baZXsuo">Motor/Encoder Combo</a></li>
+<li>error in left\right servo steering will be harder to detect &amp; correct.</li>
 </ul>
 </li>
-<li>x5 - Motor Drivers (in case we burn them up)</li>
-<li>x5 - Rotary Encoders
-<ul>
-<li><a href="https://www.adafruit.com/product/4991">adafruit</a></li>
-<li><a href="https://a.co/d/gRUY2s8">Brock has these</a></li>
-<li><a href="https://a.co/d/baZXsuo">Motor/Encoder Combo</a></li>
 </ul>
-</li>
-<li>x5 - temperature sensor (in case we burn our board)</li>
-<li>x4 - Wheels (Seems like spares may be nice)</li>
-<li>x1 - Ball Bearing (seems like spares would be less important)
-<ul>
-<li><a href="https://a.co/d/cl1yvs8">Marbles</a>, anyone?</li>
-</ul>
-</li>
-<li>x2 - Ultrasonic Sensors
-<ul>
-<li><a href="https://www.electroschematics.com/hc-sr04-datasheet/">Brock Owns some</a></li>
-</ul>
-</li>
-<li>x2 - IR Sensors
-<ul>
-<li>Jack, get the info</li>
-</ul>
-</li>
-<li>x32 - LEDs
-<ul>
-<li>I mean, we can <a href="https://a.co/d/3lupUKW"><em>never have too many</em></a>, right?</li>
-</ul>
-</li>
-<li>x2 - Battery
-<ul>
-<li>Jack, you've got this one</li>
-<li><em>What if we used a higher-amped power source?</em></li>
-</ul>
-</li>
-<li>x1 - Battery Holder
-<ul>
-<li><a href="https://a.co/d/apTf1r2">zip ties</a>, anyone?</li>
-<li><a href="https://www.adafruit.com/product/3905">adafruit</a> has one.</li>
-</ul>
-</li>
-<li>x128 - Whiskers
-<ul>
-<li>Homemade (All the cats!)</li>
-<li><a href="https://www.adafruit.com/product/1070">Adafruit Short Flex Sensor</a></li>
-<li><a href="https://www.adafruit.com/product/182">Adafruit long Flex Sensor</a></li>
-</ul>
-</li>
-<li>ADCs?</li>
-</ul>
+<h2 id="block-diagrams">Block Diagrams</h2>
+<h2 id="finite-state-machines">Finite State Machines</h2>
 </div>
         </div>
-        
+        <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
         
     </body>
     </html>
