@@ -8,7 +8,7 @@
 ## Proposal
 To read the proposal on the browser, click [this link](./html/proposal.html), or double-click on `html/proposal.html` in this repository.
 
-To read the proposal on GitHub, click [this link](./html/proposal.md)
+To read the proposal on GitHub, click [this link](./proposal.md)
 
 ## Repo
 - [GitHub Repo](https://github.com/stefinfection/rubybrown)
