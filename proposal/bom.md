@@ -1,7 +1,7 @@
 # Bill of Materials
 - x1 - Chassis (If it breaks, we can always use popsicle sticks!)
-  - What if we just bought an [RC car](https://a.co/d/haKVwfe) for the drag race?
-    - _We'd totally win the Drag race!_
+  - Obstacle Course: [Octagon Chassis](https://www.adafruit.com/product/4466)
+  - Drag Race: [RC car](https://a.co/d/haKVwfe)
 - x4 - Motors (in case we burn them up)
   - Stock Room?
   - [Adafruit Zippier Ones](https://www.adafruit.com/product/3777)
@@ -29,4 +29,6 @@
   - [adafruit](https://www.adafruit.com/product/3905) has one.
 - x128 - Whiskers
   - Homemade (All the cats!)
+  - [Adafruit Short Flex Sensor](https://www.adafruit.com/product/1070)
+  - [Adafruit long Flex Sensor](https://www.adafruit.com/product/182)
 - ADCs?

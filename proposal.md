@@ -5,7 +5,7 @@
 
 *We are using \*.md documents with the intent of diff tracking. The \*.html docs are products of the \*.md docs and can be used to more easily read our documentation.*
 
-## [Parameters](proposal/parameters.html)
+## [Parameters](proposal/parameters.md)
 _The parameters document contains more specific information, but the above is information required as soon as possible._
 #### Important Assumptions (beyond what is mentioned in the challenge description):
 - There will be time between the obstacle course & drag races to re-program & prepare the rover for each specific task.
@@ -21,31 +21,26 @@ Important Questions _(pertinent to obstacle course only)_:
 - What percentage of the course space will be covered by obstructions?
 - Can we build two separate rovers, one for each task?
 
-## [Bill of Materials](proposal/bom.html)
+## [Bill of Materials](proposal/bom.md)
 
-## [Milestones](proposal/milestones.html)
+## [Milestones](proposal/milestones.md)
 
 ## Functionality
 _Use at least 3 of the following:_
 - Interrupts
   - The rotary encoders on the wheels will be handled with interrupts.
 - PID
-  - The power supplied to the wheels will be handled with PID
+  - The power supplied to the wheels in the Obstacle Course Rover will be handled with PID
 - Analog
   - The light sensors & whiskers will use analog inputs over GPIO pins
 - UART
-  - The collected training data will be communicated via bluetooth, which will use RS-232 over UART.
+  - The collected training data will be communicated via wired UART
 
 ## System Design Representation
 
-### Approaches
-_We still need to decide on this_
-- Drag Race: [The Zoomin' Vroomin'](proposal/drag-race-approach.html)
-- Obstacle Course: [Left Hand Rule](proposal/obstacle-course-approach.html)
+### [Drag Race](proposal/drag-race-design-plan.md)
 
-### Block Diagrams
-
-### Finite State Machines
+### [Obstacle Course](proposal/obstacle-course-design-plan.md)
 
 
 
