@@ -13,12 +13,14 @@
   - [Motor/Encoder Combo](https://a.co/d/baZXsuo)
 - x5 - temperature sensor (in case we burn our board)
 - x4 - Wheels (Seems like spares may be nice)
+  - [adafruit](https://www.adafruit.com/product/3763)
+  - OR 2 sets of [adafruit](https://www.adafruit.com/product/4990)
 - x1 - Ball Bearing (seems like spares would be less important)
   - [Marbles](https://a.co/d/cl1yvs8), anyone?
 - x2 - Ultrasonic Sensors
-  - [Brock Owns some](https://www.electroschematics.com/hc-sr04-datasheet/)
+  - [Brock owns some](https://www.electroschematics.com/hc-sr04-datasheet/)
 - x2 - IR Sensors
-  - Jack, get the info
+  - [Jack owns some](https://www.digikey.com/en/htmldatasheets/production/117932/0/0/1/tcrt5000l.html)
 - x32 - LEDs
   - I mean, we can [*never have too many*](https://a.co/d/3lupUKW), right?
 - x2 - Battery
