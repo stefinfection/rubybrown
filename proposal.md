@@ -1,9 +1,9 @@
 # Project Proposal:
-**Lead:** Stephanie Georges
+- Stephanie Georges
 - Jack Sorenson
 - Brock Brown
 
-*We are using \*.md documents with the intent of diff tracking. The \*.html docs are products of the \*.md docs and can be used to more easily read our documentation.*
+*We are using \*.md documents with the intent of diff tracking.*
 
 ## [Parameters](proposal/parameters.md)
 _The parameters document contains more specific information, but the above is information required as soon as possible._
@@ -19,7 +19,6 @@ _The parameters document contains more specific information, but the above is in
 Important Questions _(pertinent to obstacle course only)_:
 - Will there be dead ends?
 - What percentage of the course space will be covered by obstructions?
-- Can we build two separate rovers, one for each task?
 
 ## [Bill of Materials](proposal/bom.md)
 
