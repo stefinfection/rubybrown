@@ -11,6 +11,29 @@ Rover first turns $90^o$ left, then follows start line until colliding with the 
 ## Physical Design - The Rover
 The Rover will consist of the [octagon chassis](https://www.adafruit.com/product/4466) with whiskers to detect the presence of an obstruction. It will use the data received from its whiskers to autonomously navigate the obstacle course until it crosses the finish line, which it will detect with photo-voltaic sensors attached to the bottom of the frame.
 
-## Block Diagrams
+## Finite State Machine
 
-## Finite State Machines
+```mermaid
+flowchart TB
+    A{Stop} -->|Whisker sense obstacle on left| B(Move forward)
+    subgraph WHISKERS
+    B -->|Whisker sense obstacle on left| B
+    A -->|Whisker sense obstacle in front| C(Turn 90d right)
+    C -->|Whisker sense obstacle on left| B
+    A -->|No whisker sense| D(Turn 90d left)
+    C -->|No whisker sense| B
+    B -->|Whisker sense obstacle in front|C
+    D --> B
+    end
+    subgraph LIGHT
+    A -->|Light sense start line| E(Move forward few revolutions)
+    E --> A
+    A -->|Light sense finish line| E
+    end
+    style A fill:#ff0000
+    style B fill:#028a0f
+    style C fill:#3944bc
+    style D fill:#ff6600
+    style E fill:#74B72E
+```
+  
