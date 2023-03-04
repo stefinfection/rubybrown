@@ -12,6 +12,11 @@ We *could* complete the Drag Race with obstacle course chassis & its associated 
 - Greater sensitivity to PWM error
   - error in left\right servo steering will be harder to detect & correct.
 
-## Block Diagrams
-
 ## Finite State Machines
+```mermaid
+flowchart LR
+    A(STOP) -->|Sense start line| B(HAUL BUTT)
+    B -->|Sense finish line| A
+    style A fill:#ff0000
+    style B fill:#028a0f
+```
