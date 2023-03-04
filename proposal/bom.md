@@ -28,8 +28,8 @@
   - For our 3V3 and 5V needs we can just use voltage dividers
   - The resistor selection will be optimized when total current draw is known 
 - x1 - Battery Holder
-  - [zip ties](https://a.co/d/apTf1r2), anyone?
-  - [3D printed case] Can screw into chasis!
+  - [zip ties](https://a.co/d/apTf1r2), most simple.
+  - [3D printed case] Can screw into chasis! 
 - x128 - Whiskers
   - Homemade (All the cats!)
   - [Adafruit Short Flex Sensor](https://www.adafruit.com/product/1070)
