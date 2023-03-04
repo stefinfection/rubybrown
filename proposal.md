@@ -7,8 +7,7 @@
 *We are using \*.md documents with the intent of diff tracking.*
 
 ## Abstract
-We propose to build two separate robots to accomplish navigating the obstacle course, and drag racetrack. The first will be modularly constructed using both homemade components and 
-some ordered from Adafruit and Amazon. The second will be a retro-fitted RC car with the RC module removed, and controlled via the STM32 Discovery board and accompanying peripherals. 
+We propose to build two separate robots to accomplish navigating the obstacle course, and drag racetrack. The first will be modularly constructed using the STM32 Discovery board and both homemade and premade components from sources such as Adafruit and Amazon. The second will be a retro-fitted RC car with the RC module removed, and controlled via the STM32 Discovery board and accompanying peripherals. 
 We realize our approach may seem a bit unorthodox, but feel we will meet the requirements set by the project, and retain the overarching goals of learning and having fun.
 
 ## [Parameters](proposal/parameters.md)
@@ -29,8 +28,7 @@ We realize our approach may seem a bit unorthodox, but feel we will meet the req
 
 ## [Milestones](proposal/milestones.md)
 
-## Functionality
-_Use at least 3 of the following:_
+## Course-Specific Functionality
 - Interrupts
   - The rotary encoders on the wheels will be handled with interrupts.
 - PID
