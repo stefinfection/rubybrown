@@ -22,15 +22,15 @@
 - x2 - IR Sensors
   - [Jack owns some](https://www.digikey.com/en/htmldatasheets/production/117932/0/0/1/tcrt5000l.html)
 - x32 - LEDs
-  - I mean, we can [*never have too many*](https://a.co/d/3lupUKW), right?
+  - [Jack has these](https://a.co/d/3lupUKW)
 - x2 - Battery
-  - Jack, you've got this one
-  - *What if we used a higher-amped power source?*
+  - [Rechargeable] A solid 2400 mAh for all our 6V needs(https://www.amazon.com/Gecoty-Battery-2400mAh-Rechargeable-Batteries/dp/B082X1LKC5/ref=sr_1_2?crid=35IKGB24E4310&keywords=6V%2BRC%2BBatteries%2Bwith%2Bcasing&qid=1677890726&s=hpc&sprefix=6v%2Brc%2Bbatteries%2Bwith%2Bcasing%2Chpc%2C108&sr=1-2&th=1)  
+  - For our 3V3 and 5V needs we can just use voltage dividers
+  - The resistor selection will be optimized when total current draw is known 
 - x1 - Battery Holder
   - [zip ties](https://a.co/d/apTf1r2), anyone?
-  - [adafruit](https://www.adafruit.com/product/3905) has one.
+  - [3D printed case] Can screw into chasis!
 - x128 - Whiskers
   - Homemade (All the cats!)
   - [Adafruit Short Flex Sensor](https://www.adafruit.com/product/1070)
   - [Adafruit long Flex Sensor](https://www.adafruit.com/product/182)
-- ADCs?
