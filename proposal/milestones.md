@@ -1,16 +1,16 @@
 # Milestones
 
 ## Milestone 0 (3/3):
-##### Do:
+##### To Do:
+
+##### Done:
+- Set up git repo
 - Pick out sensors
 - Pick out chassis
 - Proposal
 
-##### Done:
-- Set up git repo
-
 ## Milestone 1 (3/17):
-##### Do:
+##### To Do:
 - Deliverables:
   - Lighting Specifications
   - Lighting Bayesian Decision Model
@@ -35,25 +35,24 @@
     - *Sensitivity to material variance?*
     - *Decision-making trainability?*
     - *Noise reduction techniques?*
-##### Done:
 
 
 ## Milestone 2 (3/24):
-##### Do:
+##### To Do:
 - Physical Construction of Rover
 - Set up STM32 to communicate through BT
   - **BIG DEAL FOR DATA COLLECTION & TRAINING!**
 ## Milestone 3 (3/31):
-##### Do:
+##### To Do:
 - Program the Rover for basic movement
 - Determine Basic Movement Models
-## Milestone 4 (4/ 7):
-##### Do:
+## Milestone 4 (4/7):
+##### To Do:
 - System Integration
 ## Milestone 5 (4/14):
-##### Do:
+##### To Do:
 - Automated Traversal Tests
 ## Milestone 6 (4/21):
-##### Do:
+##### TO Do:
 - Automated Traversal Tests
 ## Rally (4/27):

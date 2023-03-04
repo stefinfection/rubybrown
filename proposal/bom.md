@@ -8,13 +8,13 @@
   - [Motor/Encoder Combo](https://a.co/d/baZXsuo)
 - x5 - Motor Drivers (in case we burn them up)
 - x5 - Rotary Encoders
-  - [adafruit](https://www.adafruit.com/product/4991)
+  - [Adafruit](https://www.adafruit.com/product/4991)
   - [Brock has these](https://a.co/d/gRUY2s8)
   - [Motor/Encoder Combo](https://a.co/d/baZXsuo)
 - x5 - temperature sensor (in case we burn our board)
 - x4 - Wheels (Seems like spares may be nice)
-  - [adafruit](https://www.adafruit.com/product/3763)
-  - OR 2 sets of [adafruit](https://www.adafruit.com/product/4990)
+  - [Adafruit](https://www.adafruit.com/product/3763)
+  - OR 2 sets of [Adafruit](https://www.adafruit.com/product/4990)
 - x1 - Ball Bearing (seems like spares would be less important)
   - [Marbles](https://a.co/d/cl1yvs8), anyone?
 - x2 - Ultrasonic Sensors
@@ -31,6 +31,6 @@
   - [zip ties](https://a.co/d/apTf1r2), most simple.
   - [3D printed case] Can screw into chasis! 
 - x128 - Whiskers
-  - Homemade (All the cats!)
+  - Homemade (Paper with graphite traces)
   - [Adafruit Short Flex Sensor](https://www.adafruit.com/product/1070)
   - [Adafruit long Flex Sensor](https://www.adafruit.com/product/182)
