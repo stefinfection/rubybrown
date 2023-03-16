@@ -1,0 +1,10 @@
+RC Car:
+- Period: 3.11ms, 3.125, 3.115 (3.125 -> 320Hz)
+
+- Duty Cycles: Front, Back
+    - rest: 0, 0
+    - forwards: 99%, 1%
+    - backwards: 33% (32.5), 66% (65.5)
+    - brakes:
+
+    - forward is negative voltage of reverse
