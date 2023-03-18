@@ -159,5 +159,5 @@ title(<span class="string">"Quick-Filtered Whisker Data Output"</span>)
   title(strcat(<span class="string">"n = "</span>,string(n(i))))
 <span class="keyword">end</span>
 legend(<span class="string">"relaxed"</span>,<span class="string">"concave"</span>,<span class="string">"convex"</span>,<span class="string">"Location"</span>,<span class="string">"southeast"</span>)
-</pre><img vspace="5" hspace="5" src="whisker_data_08.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2022a</a><br></p></div><!--
+</pre><img vspace="5" hspace="5" src="whisker_data_08.png" alt=""> <p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2022a</a><br></p></div>
 </body></html>
