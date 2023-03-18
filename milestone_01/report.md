@@ -29,8 +29,8 @@ the UART device serially connected another computer.
 *JACK EDIT/ADD ABOVE AND ADD SCHEMATIC HERE*
 Fig 1
 
-The processed data is viewable [here](html/milestone_01/whisker_data.html).
-The raw data is viewable [here](https://github.com/stefinfection/rubybrown/milestone_01/raw_data).
+The processed data is viewable [here](../html/milestone_01/whisker_data.html).
+The raw data is viewable [here](./raw_data/).
 
 #### Light Sensing
 To ensure we could read in light sensing data, we first hooked up an IR sensor to the STM Discovery ADC, and 
@@ -39,8 +39,8 @@ from lab 6 (using almost identical code but swapping an IR sensor for the potent
 of our setup at this [link](ADD_LINK). After verifying that our system would work, we again wrote our measured values
 over a UART serial connection. 
 
-The processed data and analysis is viewable [here](/html/milestone_01/photo_resistor_data.html).
-Again the raw data is viewable [here](https://github.com/stefinfection/rubybrown/milestone_01/raw_data).
+The processed data and analysis is viewable [here](../html/milestone_01/photo_resistor_data.html).
+Again the raw data is viewable [here](./raw_data/).
 
 ### Chassis Construction and Encoding Lessons
 We assembled our wheels and motors on our chassis, along with our encoders. One thing we
@@ -51,4 +51,4 @@ we would also need a photointerlruptor. As such, we've updated our BoM with one,
 ![Rover Bottom](../photos/rover_1.jpeg)
 
 ### Code
-You can see our ADC-sensing code [here](../scripts/DAC_sensing.c) and our collection code [here](../scripts/logBytes.py). 
+You can see our ADC-sensing code [here](https://github.com/brownbr61/tattle-tale/blob/master/Core/Src/main.c) and our collection code [here](../scripts/logBytes.py). 
