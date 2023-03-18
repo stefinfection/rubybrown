@@ -11,12 +11,12 @@ would create measurably diverging values. Below we have analyzed and documented 
 as well as the process and techniques utilized to produce it (even with a video!). We feel confident that our homemade whiskers
 will indeed be up to the task of sensing obstacles with a higher ADC bit resolution, signal filtering, and 
 calibration prior to each run.
-Our light sensing additionally worked well, as expected. In addition to setting up a system to capture our sensor data, we assembled our motors, wheels, and encoders 
+Our light sensing additionally worked well, as expected. In addition to the major progress of setting up a system to capture our sensor data, we assembled our motors, wheels, and encoders 
 onto our chassis. 
 
 ### Data sensing and collection
 Both the ADC and UART labs were critical for collecting our sensor data. At a high level, 
-we used our ADC lab code with some minor modifications (namely, we used a larger 12-bit depth to increase sensitivity)
+we used our ADC lab code with some minor modifications
 to read in the data, as well as the UART lab code to write out the data to a CSV file. We then visualized our data to ensure that our measured 
 values for different states were significantly different. We recorded a video of our data capture process 
 with a walkthrough that you can view [here](https://photos.google.com/share/AF1QipMbT5UKQWLLFyn-lpIWxlGs-L8LXLGSxk-tUocNoKHhJ5w16Ysk_vUWKtVxiH8sKg/photo/AF1QipMzzRM0rEScpkYgwwi67VyrzjysNWQ2cfoRCRBz?key=cjNVSWQybS11dFdHRE5mcklYZm5kWjMxLWpmOEdR).
@@ -64,17 +64,17 @@ of our setup at this [link](https://photos.google.com/share/AF1QipMFj47mQHgleSL3
 over a UART serial connection. 
 
 The processed data and analysis is viewable [here](./processed_data/photo_resistor_data.md) (round 1)
-and [here](./processed_data_rnd2/html/photo_resistor_data.md) (round 2).
+and [here](./processed_data_rnd2/html/photo_resistor_data.md) (round 2). Gee-wizz does that data look clean!
 
 Again the raw data is viewable [here](./raw_data/).
 
 ### Chassis Construction and Encoding Lessons
 We assembled our wheels and motors on our chassis, along with our encoders. One thing we
 didn't realize when writing our intial proposal for this setup with these encoders, is that 
-we would also need a photointerlruptor. As such, we've updated our BoM with one, and will be ordering it this week.
+we would also need a photointerruptor. As such, we've updated our BoM with one, and will be ordering it this week.
 
 ![Rover Top](../photos/rover_0.jpeg)
 ![Rover Bottom](../photos/rover_1.jpeg)
 
 ### Code
-You can see our ADC-sensing code [here](https://github.com/brownbr61/tattle-tale/blob/master/Core/Src/main.c) and our collection code [here](../scripts/logBytes.py). 
+You can see our ADC-sensing and UART-writing gicode [here](https://github.com/brownbr61/tattle-tale/blob/master/Core/Src/main.c) and our collection code [here](../scripts/logBytes.py). 
