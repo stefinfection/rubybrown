@@ -29,14 +29,15 @@ the UART device serially connected another computer.
 *JACK EDIT/ADD ABOVE AND ADD SCHEMATIC HERE*
 Fig 1
 
-The processed data is viewable [here](../html/milestone_01/whisker_data.html).
+The processed data is viewable [here][1].
+[1]: <https://github.com/stefinfection/rubybrown/blob/milestone_01/html/milestone_01/photo_resistor_data.html>
 The raw data is viewable [here](./raw_data/).
 
 #### Light Sensing
 To ensure we could read in light sensing data, we first hooked up an IR sensor to the STM Discovery ADC, and 
 illuminated the on-board LEDs at different thresholds of light intensity. This idea was borrowed directly 
 from lab 6 (using almost identical code but swapping an IR sensor for the potentiometer) and we've included a video 
-of our setup at this [link](ADD_LINK). After verifying that our system would work, we again wrote our measured values
+of our setup at this [link](https://photos.google.com/share/AF1QipMFj47mQHgleSL3aE-hg-6nYcOL0C9v2cWipQ0tjKIs9gNILWhmQ5A92I1CtWVuLw?key=T01FRlFLd3lWOFlXZVV3Yk9lRmt0RGdtWUdVUl9B). After verifying that our system would work, we again wrote our measured values
 over a UART serial connection. 
 
 The processed data and analysis is viewable [here](../html/milestone_01/photo_resistor_data.html).
