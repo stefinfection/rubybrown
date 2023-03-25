@@ -9,7 +9,7 @@
      + [Mecanum Wheel L/R set](https://www.adafruit.com/product/4990) (x2)
      + [TT Motors](https://www.adafruit.com/product/3777) (x4)
      + [TT Motor Encoder Set](https://www.adafruit.com/product/3782) (x2)
-     + [Photointerrupter](https://fscdn.rohm.com/en/products/databook/datasheet/opto/optical_sensor/photointerrupter/rpi-121.pdf) (x4)g
+     + [Photointerrupter](https://www.ttelectronics.com/TTElectronics/media/ProductFiles/Datasheet/OPB960-990.pdf) (x4)
      + [Motor Drivers](https://www.adafruit.com/product/3297) (x2)
   3. Option C: *A single 2WD non-mecanum rover for both tasks*
      + [Octagon Chassis](https://www.adafruit.com/product/4466) (x1)
