@@ -25,8 +25,8 @@ To read the specifics of our proposal in the browser, click [here](https://githu
 ## Repo
 - [Project Repo](https://github.com/stefinfection/rubybrown)
 - ssh clone: `git clone git@github.com:stefinfection/rubybrown.git`
-- [Code Repo](https://github.com/brockbr61/effective-telegram)
-- ssh clone: `git clone git@github.com:brockbr61/effective-telegram.git`
+- [Code Repo](https://github.com/brownbr61/effective-telegram)
+- ssh clone: `git clone git@github.com:brownbr61/effective-telegram.git`
 
 ## Hercules
 ![Rover Top](./photos/rover_2.jpeg)
