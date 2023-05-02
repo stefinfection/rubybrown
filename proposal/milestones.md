@@ -33,7 +33,7 @@
   - Light sensor data collection
     - *Sensitivity to light variance?*
     - *Sensitivity to material variance?*
-    - *Decision-making trainability?*
+    - *Decision-making train-ability?*
     - *Noise reduction techniques?*
 
 
@@ -53,6 +53,8 @@
 ##### To Do:
 - Automated Traversal Tests
 ## Milestone 6 (4/21):
-##### TO Do:
+##### To Do:
 - Automated Traversal Tests
-## Rally (4/27):
+## Rally (5/3):
+##### To Do:
+- Crush!
