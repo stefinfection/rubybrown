@@ -9,7 +9,7 @@
   + [Ball Caster](https://www.adafruit.com/product/1200) (x1)
   + [Motor Driver](https://learn.adafruit.com/adafruit-tb6612-h-bridge-dc-stepper-motor-driver-breakout?view=all) (x1)
 - Infrared Sensors
-  + [Sharp Analog](https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf) (x3)
+  + [Gikfun MH-Sensor](https://a.co/d/idVgIlu) (x2)
 - Battery
   + [7.4V Rechargable](https://a.co/d/bU9cAT2)
   + [Voltage Buck Converter](https://a.co/d/5Z9DcDS)
