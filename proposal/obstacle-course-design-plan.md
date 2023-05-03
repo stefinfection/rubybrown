@@ -18,25 +18,18 @@ The Rover will consist of the [octagon chassis](https://www.adafruit.com/product
 
 ```mermaid
 flowchart TB
-    A{Stop} -->|Whisker sense obstacle on left| B(Move forward)
-    subgraph WHISKERS
-    B -->|Whisker sense obstacle on left| B
-    A -->|Whisker sense obstacle in front| C(Turn 90d right)
-    C -->|Whisker sense obstacle on left| B
-    A -->|No whisker sense| D(Turn 90d left)
-    C -->|No whisker sense| B
-    B -->|Whisker sense obstacle in front|C
-    D --> B
+subgraph IR SENSING
+    A{Stop} -->|No sensor detection| B(Zig Zag)
+    B -->|Detect object left sensor| C(Zag right)
+    B -->|Detect object left sensor| D(Zig left)
+    D -->B
+    C -->B
     end
-    subgraph LIGHT
-    A -->|Light sense start line| E(Move forward few revolutions)
-    E --> A
-    A -->|Light sense finish line| E
-    end
+
     style A fill:#ff0000
     style B fill:#028a0f
     style C fill:#3944bc
     style D fill:#ff6600
-    style E fill:#74B72E
+
 ```
   

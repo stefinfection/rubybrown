@@ -26,7 +26,7 @@ To read the specifics of our proposal in the browser, click [here](https://githu
 - [Project Repo](https://github.com/stefinfection/rubybrown)
 - ssh clone: `git clone git@github.com:stefinfection/rubybrown.git`
 - [Final Code Repo](https://github.com/brownbr61/hercules) - pure hardcoded, messy functionality
-- - ssh clone: `git clone git@github.com:brownbr61/hercules.git`
+- ssh clone: `git clone git@github.com:brownbr61/hercules.git`
 - [Penultimate Code Repo](https://github.com/brownbr61/ploop-d-doop) - builds on Windows
 - ssh clone: 'git clone git@github.com/brownbr61/ploop-d-doop'
 - [Progress Code Repo](https://github.com/brownbr61/effective-telegram) - builds on Linux
