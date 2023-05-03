@@ -10,10 +10,10 @@ to win the gold at a drag race. This project is written in C and works with the 
 Discovery microcontroller by STMicroelectronics. All major components used to build our 
 rover can be found in the Bill of Materials, but largely feature simple wheels attached 
 to TT motors and infrared sensors to detect obstacles. Specific techniques featured in this 
-project include analog to digital conversion (ADC), general purpose input/output (GPIO), 
-external interrupts (EXTI), timer interrupts, pulse-width modulation (PWM), and
-proportional-integral-derivative motor control (PID). This project encompasses much 
-of the knowledge conveyed in CS/CE6780, taught at the University of Utah in the spring of 2023.
+project include general purpose input/output (GPIO), external interrupts (EXTI), 
+timer interrupts, pulse-width modulation (PWM), and proportional-integral-derivative 
+motor control (PID). This project encompasses much of the knowledge conveyed in CS/CE6780, 
+taught at the University of Utah in the spring of 2023.
 To read the specifics of our proposal in the browser, click [here](https://github.com/stefinfection/rubybrown/blob/master/proposal.md).
 
 ## Milestone Reports
@@ -25,9 +25,11 @@ To read the specifics of our proposal in the browser, click [here](https://githu
 ## Repo
 - [Project Repo](https://github.com/stefinfection/rubybrown)
 - ssh clone: `git clone git@github.com:stefinfection/rubybrown.git`
-- [Final Code Repo](https://github.com/brownbr61/ploop-d-doop) - if you're just interested in functionality
+- [Final Code Repo](https://github.com/brownbr61/hercules) - pure hardcoded, messy functionality
+- - ssh clone: `git clone git@github.com:brownbr61/hercules.git`
+- [Penultimate Code Repo](https://github.com/brownbr61/ploop-d-doop) - builds on Windows
 - ssh clone: 'git clone git@github.com/brownbr61/ploop-d-doop'
-- [Progress Code Repo](https://github.com/brownbr61/effective-telegram) - what we did along the way
+- [Progress Code Repo](https://github.com/brownbr61/effective-telegram) - builds on Linux
 - ssh clone: `git clone git@github.com:brownbr61/effective-telegram.git`
 
 ## Hercules
