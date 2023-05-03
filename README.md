@@ -23,6 +23,10 @@ To read the specifics of our proposal in the browser, click [here](https://githu
 - [Final Report](./milestone_N/report.md)
 
 ## Repo
+*A quick note about the code repos: we initially used the OS-agnostic setup, then switched to 
+using Kiel Vision on Windows due to what we suspect were high level clock issues with the former.
+We'd encourage interested parties to review the effective-telegram repository in particular, 
+to see our efforts of setting everything manually.*
 - [Project Repo](https://github.com/stefinfection/rubybrown)
 - ssh clone: `git clone git@github.com:stefinfection/rubybrown.git`
 - [Final Code Repo](https://github.com/brownbr61/hercules) - pure hardcoded, messy functionality
